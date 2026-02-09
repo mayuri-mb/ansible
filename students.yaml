@@ -1,0 +1,29 @@
+- name:  "Ramesh kumar"
+  DOB: "1999-01-01"
+  Email:  "ramesh@gmail.com"
+  Addresses:  
+  - flatnumber: 104
+    street: "Gandhi Nagar"
+    City: Hyderabad
+    type: Current
+
+  - flatnumber: 104
+    street: "Gandhi Nagar"
+    City: Hyderabad
+    type: Permanent
+
+- name:  "Suresh kumar"
+  DOB: "1999-01-01"
+  Email:  "suresh@gmail.com"
+  Addresses:  
+  - flatnumber: 104
+    street: "Gandhi Nagar"
+    City: Hyderabad
+    type: Current
+
+  - flatnumber: 104
+    street: "Gandhi Nagar"
+    City: Hyderabad
+    type: Permanent
+        
+

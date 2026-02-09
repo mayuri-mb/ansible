@@ -1,0 +1,44 @@
+{
+    "Students": [
+        {
+            "Firstname":"Ramesh kumar",
+            "DOB":"1999-01-01",
+            "Email":"ramesh@gmail.com",
+            "Address": [
+            {
+                "type":"Permanent",
+                "Flatnumber":104,
+                "street":"Gandhi nagar",
+                "city":"Hyderabad"            
+            },
+            {   
+                "type":"Current",
+                "Flatnumber":104,
+                "street":"Gandhi nagar",
+                "city":"Hyderabad"      
+            }            
+        ],
+        "Skills":["Java", "Devops", "Cloud"]
+    },
+        {
+            "Firstname":"Ramesh kumar",
+            "DOB":"1999-01-01",
+            "Email":"ramesh@gmail.com",
+            "Address": [
+            {
+                "type":"Permanent",
+                "Flatnumber":104,
+                "street":"Gandhi nagar",
+                "city":"Hyderabad"            
+            },
+            {   
+                "type":"Current",
+                "Flatnumber":104,
+                "street":"Gandhi nagar",
+                "city":"Hyderabad"      
+            }            
+        ],
+        "Skills":["Java", "Devops", "Cloud"]
+        }
+    ] 
+}    
