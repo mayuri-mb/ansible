@@ -5,10 +5,10 @@
     Name: Ansible from play
   # vars_files:
   # - course.yaml  
-  vars_prompt:
-  - name: Name
-    prompt: Please enter your name
-    private: false
+  # vars_prompt:
+  # - name: Name
+  #   prompt: Please enter your name
+  #   private: false
   tasks:
     - name: Print name
       # vars:
