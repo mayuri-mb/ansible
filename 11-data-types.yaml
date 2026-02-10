@@ -2,10 +2,10 @@
   hosts: local
   connection: local
   vars:
-    program: "DevSecOps with AWS" #string
-    duration: 140  #int/number
-    Is_Live: true  #bool
-    details:  #map/dictionary
+    program: "DevSecOps with AWS" # string
+    duration: 140  # int/number
+    Is_Live: true  # bool
+    details:  # map/dictionary {}
       months: 4
       trainer: "shiva kumar"
     topics:  # list  starts with - or []
