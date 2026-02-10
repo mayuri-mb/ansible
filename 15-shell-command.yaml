@@ -12,8 +12,8 @@
      msg:  "{{ users_output }}"   
 
   - name: command module test
-    ansible.builtin.shell: ls -l > files.txt
-    register: files_output
+    ansible.builtin.shell: ls -l > files.txt   # routes o/p to files.txt
+    register: files_output    # gives RC=0 if success
 
   - name: print output
     ansible.builtin.debug:
