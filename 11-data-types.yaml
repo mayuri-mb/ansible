@@ -15,10 +15,10 @@
   tasks:
   - name: print variables
     ansible.builtin.debug:
-      msg: "
+      msg: |
         program: {{ program }}
         duration: {{ duration }}
         Is_Live: {{ Is_Live }}
         details: {{ details }}
-        topics: {{ topics }}"
+        topics: {{ topics }}
 
