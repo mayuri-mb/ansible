@@ -6,7 +6,7 @@
     ansible.builtin.package:
       name: "{{ item.name }}"
       state: "{{ item.state }}"
-    loops: # list of map
+    loop: # list of map
     - { name: "mysql", state: "absent"}  # maps/dictonaries
     - { name: "nginx", state: "present"}
     - { name: "zip", state: "present"}  
