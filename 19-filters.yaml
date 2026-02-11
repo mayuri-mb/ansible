@@ -37,4 +37,9 @@
 
   - name: convert list to map
     ansible.builtin.debug:
-      msg: "{{ tagslist | items2dict }}"    
+      msg: "{{ tagslist | items2dict }}"   
+
+  - name: read students yaml file
+    ansible.builtin.set_fact:
+      msg:  "{{ lookup('file', 'students.yaml') | from_yaml }}"
+            
