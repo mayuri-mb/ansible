@@ -3,5 +3,7 @@
   connection: local
   tasks:
   - name: greetings
+    vars:
+      greetings: "good morning"    
     ansible.builtin.debug:
-     msg: "Hi Shiva, {{ greetings | default('good morning') }}"
+      msg: "Hi Shiva, {{ greetings | default('good morning') }}"
