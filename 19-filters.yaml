@@ -10,4 +10,4 @@
 
   - name: convert string ti list
     ansible.builtin.debug:
-      msg: "{{ topics | split }}"      
+      msg: "{{ topics | split(,) }}"      
