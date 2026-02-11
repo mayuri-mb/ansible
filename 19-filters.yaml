@@ -4,6 +4,6 @@
   tasks:
   - name: greetings
     vars:
-      greetings: "good morning"    
+      greetings: "GOOD MORNING!"    
     ansible.builtin.debug:
       msg: "Hi Shiva, {{ greetings | default('good morning') }}"
