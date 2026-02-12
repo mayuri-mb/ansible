@@ -1,6 +1,7 @@
 - name: Hello world
   #hosts: web
   hosts: local
+  connection: local  
   become: yes
   tasks:
   - name: Print hello world
@@ -9,6 +10,7 @@
 
 - name: Play-2
   hosts: local
+  connection: local  
   become: yes
   tasks:
   - name: Play-2 and task 1
