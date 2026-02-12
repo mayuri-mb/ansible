@@ -1,5 +1,5 @@
 - name: check Idempotent
-  becOme: yes
+  become: yes
   hosts:  local
   connection: local
   tasks:
