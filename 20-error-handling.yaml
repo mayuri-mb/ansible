@@ -6,7 +6,7 @@
   - name: check user exist or not
     ansible.builtin.command:  id roboshop
     register: user_output
-     ignore_error: true
+    ignore_error: true
 
   - name: print output  
     ansible.builtin.debug:
@@ -14,4 +14,4 @@
 
   - name: create user
     ansible.builtin.command: useradd roboshop
-    when: user_output! = 0       
+    when: user_output.rc! = 0       
