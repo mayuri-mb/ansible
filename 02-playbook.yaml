@@ -8,6 +8,7 @@
 
 - name: Play-2
   hosts: local
+  become: yes
   tasks:
   - name: Play-2 and task 1
     ansible.builtin.debug:
